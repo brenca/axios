@@ -1791,11 +1791,11 @@ describe('supports http with nodejs', function () {
           }]`
         );
 
-        const progressTicksRate = 2;
+        const progressTicksRate = 60;
         const expectedProgress = ((i + skip) / secs) / progressTicksRate;
 
         assert.ok(
-          Math.abs(expectedProgress - progress) < 0.25,
+          Math.abs(expectedProgress - progress) < 0.3,
           `Progress sample at index ${i} is out of the expected range (${progress} / ${expectedProgress}) [${
             _samples.map(({progress}) => progress).join(', ')
           }]`
@@ -1839,11 +1839,11 @@ describe('supports http with nodejs', function () {
           }]`
         );
 
-        const progressTicksRate = 2;
+        const progressTicksRate = 60;
         const expectedProgress = ((i + skip) / secs) / progressTicksRate;
 
         assert.ok(
-          Math.abs(expectedProgress - progress) < 0.25,
+          Math.abs(expectedProgress - progress) < 0.3,
           `Progress sample at index ${i} is out of the expected range (${progress} / ${expectedProgress}) [${
             _samples.map(({progress}) => progress).join(', ')
           }]`

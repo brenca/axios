@@ -1,6 +1,6 @@
 {
-  "name": "axios",
-  "version": "1.0.0-alpha.1",
+  "name": "@mxw/axios",
+  "version": "1.0.0-alpha.6",
   "description": "Promise based HTTP client for the browser and node.js",
   "main": "index.js",
   "exports": {
@@ -52,6 +52,7 @@
   },
   "homepage": "https://axios-http.com",
   "devDependencies": {
+    "@babel/core": "^7.19.1",
     "@babel/preset-env": "^7.18.2",
     "@rollup/plugin-babel": "^5.3.1",
     "@rollup/plugin-commonjs": "^15.1.0",

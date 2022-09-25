@@ -2921,6 +2921,9 @@ axios.toFormData = toFormData;
 // Expose AxiosError class
 axios.AxiosError = AxiosError;
 
+// Expose AxiosHeaders class
+axios.AxiosHeaders = AxiosHeaders;
+
 // alias for CanceledError for backward compatibility
 axios.Cancel = axios.CanceledError;
 
